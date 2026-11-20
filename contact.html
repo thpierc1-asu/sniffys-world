@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Contact Sniffy's World with questions, feedback, or dog stories.">
+    <title>Sniffy's World :: Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <header>
+            <h1>
+                <a href="index.html">Sniffy's World</a>
+            </h1>
+            <p>A Little Dog with an Old Soul</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Sniffy's Story</a></li>
+                <li><a href="behavior.html">Behavior &amp; Training</a></li>
+                <li><a href="nutrition.html">Food &amp; Nutrition</a></li>
+                <li><a href="adventures.html">Adventures</a></li>
+                <li>
+                    <a href="contact.html" aria-current="page">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="contact">
+                <h2>Contact Sniffy's World</h2>
+
+                <p>
+                    Have a question about Sniffy, want to share
+                    your own dog story, or have feedback about
+                    the website? I'd love to hear from you!
+                    Fill out the form below to get in touch.
+                </p>
+
+                <p>
+                    Required fields are marked with an
+                    asterisk (*).
+                </p>
+
+                <form method="post" action="">
+
+                    <label for="myName">* Name:</label>
+                    <input type="text"
+                           id="myName"
+                           name="myName"
+                           required>
+
+                    <label for="myEmail">* Email Address:</label>
+                    <input type="email"
+                           id="myEmail"
+                           name="myEmail"
+                           required>
+
+                    <label for="myTopic">* Message Topic:</label>
+                    <select id="myTopic"
+                            name="myTopic"
+                            required>
+                        <option value="">
+                            Select a Topic
+                        </option>
+                        <option value="general">
+                            General Question
+                        </option>
+                        <option value="nutrition">
+                            Dog Food &amp; Nutrition
+                        </option>
+                        <option value="behavior">
+                            Behavior &amp; Training
+                        </option>
+                        <option value="story">
+                            Share a Dog Story
+                        </option>
+                        <option value="feedback">
+                            Website Feedback
+                        </option>
+                        <option value="other">
+                            Other
+                        </option>
+                    </select>
+
+                    <label for="myComments">* Comments:</label>
+                    <textarea id="myComments"
+                              name="myComments"
+                              rows="5"
+                              cols="40"
+                              required></textarea>
+
+                    <div class="form-buttons">
+                        <input type="submit"
+                               value="Send Message">
+                        <input type="reset"
+                               value="Clear Form">
+                    </div>
+
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Sniffy's World</p>
+            <p>
+                <a href="contact.html">Contact</a>
+            </p>
+        </footer>
+
+    </div>
+</body>
+</html>
